@@ -1,0 +1,59 @@
+/*日村体*/
+@font-face {
+    font-family: 'ricunti';
+    /* src: url('../../static/font/ricunti.ttf'); */
+    src: url('https://www.office2.cn/file/group1/M00/00/04/r2YPll3g2mCAbge0ADeq6BqN4fU513.ttf');
+}
+
+/*造字工坊黄金时代*/
+@font-face {
+    font-family: 'zaozigongfanghuangjinshidai';
+    /* src: url('../../static/font/zaozigongfanghuangjinshidai.otf'); */
+    src: url('https://www.office2.cn/file/group1/M00/00/04/r2YPll3jJseAQ4zIABhJZJWubeo500.otf');
+}
+/*本末客圆*/
+@font-face {
+    font-family: 'benmokeyuan';
+    /* src: url('../../static/font/benmokeyuan.ttf'); */
+    src: url('https://www.office2.cn/file/group1/M00/00/04/r2YPll3g3VaALKQwADeq6BqN4fU811.ttf');
+}
+@font-face {
+    font-family: 'b3f3dcf6';
+    /* src: url('../../static/font/b3f3dcf6-79ff-4ac4-a9d2-121e9cfb5b11.ttf'); */
+    src: url('https://www.office2.cn/file/group1/M00/00/04/r2YPll3g6DuAElq-ABoOAPtF6SU435.ttf');
+}
+
+ /*汉仪书魂体简*/
+@font-face {
+    font-family: 'hanyishuhuntijian';
+    /* src: url('../../static/font/b3f3dcf6-79ff-4ac4-a9d2-121e9cfb5b11.ttf'); */
+    src: url('https://www.office2.cn/file/group1/M00/00/04/r2YPll3g6DuAElq-ABoOAPtF6SU435.ttf');
+}
+
+/*QuartzRegular*/
+@font-face {
+    font-family: 'QuartzRegular';
+    /* src: url('../../static/font/b3f3dcf6-79ff-4ac4-a9d2-121e9cfb5b11.ttf'); */
+    src: url('https://www.office2.cn/file/group1/M00/00/04/r2YPll3g6DuAElq-ABoOAPtF6SU435.ttf');
+}
+
+/*苹方常规*/
+@font-face {
+    font-family: 'pingfangchanggui';
+    /* src: url('../../static/font/b3f3dcf6-79ff-4ac4-a9d2-121e9cfb5b11.ttf'); */
+    src: url('https://www.office2.cn/file/group1/M00/00/04/r2YPll3g6DuAElq-ABoOAPtF6SU435.ttf');
+}
+
+/*逐浪创艺粗黑体*/
+@font-face {
+    font-family: 'LPD8R8';
+    /* src: url('../../static/font/b3f3dcf6-79ff-4ac4-a9d2-121e9cfb5b11.ttf'); */
+    src: url('https://www.office2.cn/file/group1/M00/00/04/r2YPll3g3VaALKQwADeq6BqN4fU811.ttf');
+}
+
+/*思源黑体常规*/
+@font-face {
+    font-family: 'siyuanheitichanggui';
+    /* src: url('../../static/font/b3f3dcf6-79ff-4ac4-a9d2-121e9cfb5b11.ttf'); */
+    src: url('https://www.office2.cn/file/group1/M00/00/07/r2YPll3mO5-AMAkqAPyrlDGm1sc800.otf');
+}
