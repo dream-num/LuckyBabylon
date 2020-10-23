@@ -230,8 +230,8 @@
     } from './js/methods';
 import { get } from 'http';
 
-    let fontWasmUrl = "/compiler.wasm";
-    let fontDefaultUrl = "/方正正准黑简体.TTF";
+    // let fontWasmUrl = `${this.publicPath}compiler.wasm`;
+    // let fontDefaultUrl = "/方正正准黑简体.TTF";
     // let fontDefaultUrl = fontPath['SourceHanSans-Normal'];
 
     export default {
@@ -316,7 +316,8 @@ import { get } from 'http';
                     value:"https://minio.cnbabylon.com/public/LuckyBabylon/demo/银河系.json",
                     label:"银河系",
                 }
-            ]
+            ],
+            publicPath: process.env.BASE_URL
         }),
         components: {
             particleSetting,
@@ -516,7 +517,12 @@ import { get } from 'http';
             }).attr("tabindex", 0).focus();
 
             setTimeout(() => {
+                let _this = this;
                 (async function main() {
+
+                    let fontWasmUrl = `${_this.publicPath}compiler.wasm`;
+                    let fontDefaultUrl = `${_this.publicPath}方正正准黑简体.TTF`;
+
                     const compiler = await Compiler.Build(fontWasmUrl);
                     const font = await Font.Install(fontDefaultUrl, compiler);
                     _this.canvas.babylon.compiler = compiler;
